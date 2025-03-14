@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Template</title>
+
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="p-20">
+
+    <div class="flex flex-col gap-y-10">
+        <label for="email" class="text-[#00000] hover:text-blue-600 w-70 justify-between flex">
+            Email: <input type="email" class="bg-gray-200 rounded-[0.2rem]">
+        </label>
+        <label for="Country" class="w-70 justify-between flex">
+            Country: <input type="text" class="bg-gray-200 rounded-[0.2rem]">
+        </label>
+        <label for="postalCode" class="w-70 justify-between flex">
+            Postal Code: <input type="text" class="bg-gray-200 rounded-[0.2rem]">
+        </label>
+        <label for="Password" class="w-70 justify-between flex">
+            Password: <input type="text" class="bg-gray-200 rounded-[0.2rem]">
+        </label>
+        <button class="p-5 bg-black text-white w-50 h-10 flex items-center justify-center rounded-[0.2rem]">Submit</button>
+    </div>
+    
+</body>
+</html>
